@@ -1,0 +1,245 @@
+:root
+{
+    --turq-green: #64FFDA;
+    --dark-blue: #0A192F;
+    --light-slate: #CCD6F6;
+    --slate: #8892B0;
+}
+html {
+scroll-behavior: smooth;
+}
+.raleway-font
+{
+    font-family: 'Raleway', sans-serif;
+}
+body
+{
+    margin: 0px;
+    /* margin-bottom: 40px; */
+    padding: 0px;
+    background-image: linear-gradient(#0A192F,#0A192F,black);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: var(--light-slate);
+}
+ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul li
+{
+    list-style: none;
+}
+ul li a
+{
+    text-decoration: none;
+    color: var(--light-slate);
+    display: flex;
+    flex-direction: column;
+}
+.items-center
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.marg-top
+{
+    margin-top: 0px;
+}
+.marg-bot
+{
+    margin-bottom: 0px;
+}
+.h1-heading
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5vw;
+    text-align: center;
+}
+
+/* Navbar */
+#navbar
+{
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    /* border-bottom: 1px solid white; */
+    transition:500ms ease;
+    z-index: 2;
+    background: transparent;
+}
+#nav-icons
+{
+    width: 60%;
+    margin: auto;
+}
+#my-name h1
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2.5vw;
+    margin: 1vw;
+}
+.social-icons a img
+{
+    height: 30px;
+    padding: 5px;
+}
+
+/* My Intro */
+#my-intro
+{
+    height: 41vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#introduction {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#intro-msg {
+    padding: 50px;
+}
+#intro-msg h1
+{
+    /* font-family: 'Ysabeau', sans-serif; */
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 80px;
+    margin-top: 10px;
+}
+#intro-msg h3
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+#intro-bitmoji {
+    text-align: center;
+    margin: auto;
+}
+
+#intro-bitmoji img {
+    height: 350px;
+}
+
+/* About Me */
+#about-me
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+#about-me img
+{
+    height: 300px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+/* Skills */
+#my-skills
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin: auto;
+    background: #112240;
+    border-radius: 25px;
+}
+.inner-skill
+{
+    border-right: 2px solid;
+    padding: 20px;
+}
+.skill-heading
+{
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+.skill-design
+{
+    position: relative;
+    left: 31px;
+}
+.skill-message
+{
+    position: relative;
+    left: 80px;
+    width: 60%;
+    margin-left: -40px;
+    border-left: 2px solid;
+    padding-left: 25px;
+}
+
+/* My Experience */
+.experiences
+{
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    width: 80%;
+    background: black;
+    border: 2px solid;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* My works */
+#my-works
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    column-gap: 5%;
+}
+.work-body
+{
+    background: var(--light-slate);
+    color: white;
+    border-radius: 25px;
+}
+.work-logo
+{
+    padding: 25px;
+}
+.work-logo img
+{
+    height: 100px;
+}
+.work-details
+{
+    background: black;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+}
+
+/* Footer */
+footer
+{
+    padding: 30px;
+    margin-top: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+#contact-details
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+}
+#contact-email
+{
+    text-align: left;
+}
+#copyright
+{
+    text-align: center;
+    font-size: 10px;
+}
+footer .social-icons
+{
+    text-align: center;
+}
